@@ -25,7 +25,7 @@ How would I do this?
     -  Doctest
     -  Unittest
 -  Other tools (brief mention)
-    -  `Nose <https://nose.readthedocs.org/en/latest/>`_ ("in maintenance mode for the past several years") vs `Nose2<https://nose2.readthedocs.org/en/latest/>`_ (the successor)
+    -  `Nose <https://nose.readthedocs.org/en/latest/>`_ ("in maintenance mode for the past several years") vs `Nose2 <https://nose2.readthedocs.org/en/latest/>`_ (the successor)
     -  `Pytest <http://pytest.org/latest/>`_: The new hotness
     -  `Unittest2 <https://pypi.python.org/pypi/unittest2>`_
     -  I'll focus on Python3 tools cuz that's the future.
@@ -60,7 +60,7 @@ Unittest: Testing SMALLTALK style! (like Gangnam Style...but with testing)
 -  mocking: because you can't test The Internet
 
 
-Other Tools I may talk about
+Other Tools of Note
 -------------------------------
 -  I'll evaluate them to see how useful I think they'll be to new developers. I haven't used ANY of these yet
 
