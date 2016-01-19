@@ -64,12 +64,9 @@ Other Tools I may talk about
 -------------------------------
 -  I'll evaluate them to see how useful I think they'll be to new developers. I haven't used ANY of these yet
 
-    +  Coverage: is all the code being tested?
-    +  Mcabe: How complex is your code?
-    +  PyFlakes & Pep8: Because style matters
-    +  Mocking/Mock objects: Cuz you can't test the Internet
-
-        *  from mock import Mock
+    +  `Coverage <https://coverage.readthedocs.org/en/coverage-4.0.3/>`_: is all the code being tested?
+    +  `Mcabe <https://pypi.python.org/pypi/mccabe>`_: How complex is your code?
+    +  `PyFlakes <https://pypi.python.org/pypi/pyflakes>`_, `Pep 8 <https://www.python.org/dev/peps/pep-0008/>`_ & `Flake8 <https://pypi.python.org/pypi/flake8>`_: Because style matters
 
 
 References
