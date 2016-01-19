@@ -25,47 +25,40 @@ How would I do this?
     -  Doctest
     -  Unittest
 -  Other tools (brief mention)
-    -  `Nose<https://nose.readthedocs.org/en/latest/>`_ ("in maintenance mode for the past several years") vs `Nose2<https://nose2.readthedocs.org/en/latest/>`_ (the successor)
-    -  `Pytest<http://pytest.org/latest/>`_: The new hotness
+    -  `Nose <https://nose.readthedocs.org/en/latest/>`_ ("in maintenance mode for the past several years") vs `Nose2<https://nose2.readthedocs.org/en/latest/>`_ (the successor)
+    -  `Pytest <http://pytest.org/latest/>`_: The new hotness
     -  `Unittest2 <https://pypi.python.org/pypi/unittest2>`_
     -  I'll focus on Python3 tools cuz that's the future.
 
         +  But my example code will be in Python 2.7 cuz Twillio is NOT in the future. :-(
 
-*  Methods: primary focus
+*  Methods
 
     -  How do you write tests?
 
-        +  Testing Cycle
+        +  TDD Testing Cycle
 
             *  Write test, run test
             *  Test Fails
             *  Write enough code to pass test
     -  What are you testing for, specifically?
     -  What AREN'T/SHOULDN'T you test?
-    -  EXAMPLES GO HERE
+    -  On to EXAMPLES!!!
 
-        +  Doctest
-        +  unittest
 
 Doctest: your first step into testing AND documentation
--------------------------------------
+-------------------------------------------------------
 -  You should be documenting your functions anyway
 -  Simplest way to start testing
--  
+
 
 Unittest: Testing SMALLTALK style! (like Gangnam Style...but with testing)
 ---------------------------------------------------------------------------
 
--  An "`xUnit<https://en.wikipedia.org/wiki/XUnit>`_" style of testing. Based on SUnit from Smalltalk
+-  An "`xUnit <https://en.wikipedia.org/wiki/XUnit>`_" style of testing. Based on SUnit from Smalltalk
 -  test isolation: why unittest creates a NEW object for EACH test method
 -  mocking: because you can't test The Internet
 
-Nose: The New Hotness
-----------------------
-
-Pytest: Latest and Greatest
-----------------------------
 
 Other Tools I may talk about
 -------------------------------
@@ -78,16 +71,6 @@ Other Tools I may talk about
 
         *  from mock import Mock
 
-Examples: What will I use?
----------------------------
--  My spreadsheet code (lots of modules & interaction)
--  Create "fake" code
-
-    +  multiple fake modules, to simulate a level of complexity 
-    +  Maybe I base that fake code ON the spreadsheet code? I need to document those relationships anyway
-    +  data types
-        +  input: list; output: dictionary
-        +  input: string; output: list 
 
 References
 ***********
@@ -107,4 +90,4 @@ Give credit where it's due
 -  `Python Testing <http://pythontesting.net/>`_
 -  `Obey The Testing Goat! <http://www.obeythetestinggoat.com/>`_
 
-    +  `TDD Resources <http://www.obeythetestinggoat.com/pages/tdd-resources.html>`_
+    +  `TDD Resources <http://www.obeythetestinggoat.com/pages/tdd-resources.html>`
