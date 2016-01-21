@@ -45,9 +45,8 @@ How would I do this?
     -  What AREN'T/SHOULDN'T you test?
     -  On to EXAMPLES!!!
 
-EXAMPLE CODE!!
--------------------
--  `My Die-rolling app <https://github.com/kojoidrissa/helloflask>`_
+EXAMPLE CODE!! `My Die-rolling app <https://github.com/kojoidrissa/helloflask>`_
+----------------------------------------------------
 
 Doctest: your first step into testing AND documentation
 -------------------------------------------------------
