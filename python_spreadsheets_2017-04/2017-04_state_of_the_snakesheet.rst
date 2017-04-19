@@ -47,11 +47,9 @@ Working with spreadsheet files
 
 Simple
 =======
+-  reading from a spreadsheet
 -  reading well-structured data
--  reading & writing well-structured data
-
-Intermediate
-=============
+-  writing to a spreadsheet
 
 Advanced/My Current Task
 =========================
